@@ -1,0 +1,23 @@
+{
+	"name": "hyper-rte",
+	"version": "0.0.0",
+	"description": "a hyper rich text editor for your needs",
+	"type": "module",
+	"author": "aliibrahim123",
+	"homepage": "https://aliibrahim123.github.io/hyperRTE/",
+	"bugs": {
+		"url": "https://github.com/aliibrahim123/hyperRTE/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aliibrahim123/hyperRTE.git"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"esbuild": "",
+		"http-server": ""
+	},
+	"dependencies": {
+		"@simplyjs/dom": "^0.0.2"
+	}
+}
