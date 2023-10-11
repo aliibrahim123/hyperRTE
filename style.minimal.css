@@ -1,0 +1,44 @@
+.hrte {
+	border: 1px solid rgba(10, 10, 10, 0.1);
+	box-sizing: border-box;
+	border-radius: calc(var(--vd) * (2/3));
+}
+
+.hrte-content {
+	box-sizing: border-box;
+	height: calc(var(--vd) * 20);
+	overflow-y: auto;
+	padding: calc(var(--vd) * (2/3));
+	background: rgba(0,0,0,0.05);
+}
+
+.hrte-toolbar {
+	background-color: #FFF;
+	border-bottom: 1px solid rgba(10, 10, 10, 0.1);
+	border-radius: calc(var(--vd) * (1/3));
+}
+
+.hrte-button {
+	all: unset;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	line-height: calc(var(--vd) * 2.5);
+	min-width: calc(var(--vd) * (1 + 1/2));
+	padding-inline: calc(var(--vd) * (1/2));
+}
+
+.hrte-button > * {
+	vertical-align: middle
+}
+
+.hrte-button-selected {
+	background-color: #d8d8d8;
+}
+
+.hrte-button-separator {
+	display: inline-block;
+	line-height: calc(var(--vd) * 1.5);
+	border-left: #ccced1 solid 1px;
+	margin-inline: calc(var(--vd) * (1/3));
+}
