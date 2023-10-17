@@ -4,6 +4,7 @@ import { EventEmmiter } from '@simplyjs/com/structure/events.js';
 import { constructMainUI, constructToolbar } from './ui.js';
 import './calcStyles.js';
 import { cleanStyles } from './clean.js';
+import $edit from '@simplyjs/dom/edit.js';
 
 export * from './creators.js';
 
@@ -108,6 +109,10 @@ export default class HyperRTE {
 	
 	export () {
 		var el = this.contentEl.cloneNode(true);
+		//remove styles
+		query('.styled', el).forEach(
+			el => Array.from(el.classList).forEach(cls => cls.startsWith('styled') && el.classList.remove(cls))
+		);
 		this.trigger('export', el);
 		return el.innerHTML
 	}

@@ -54,7 +54,7 @@ export var addList = (rte, name, definition) => {
 			data.forEach((value, ind) => {
 				if (ind !== 0) dropDown.append(construct(`<div class='hrte-list-separator'>`));
 				var el = construct(`<div class='hrte-list-item'>`);
-				el.append(item(value));
+				el.append(item(value, rte));
 				el.addEventListener('click', () => {
 					close();
 					reselect();

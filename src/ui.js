@@ -36,7 +36,7 @@ export var constructToolbar = (rte, toolbar) => {
 		var { title, creator, state, action } = definition;
 			
 		//construct element
-		var el = construct(`<button class='hrte-button' title='${title}'>`);
+		var el = construct(`<button class='hrte-button' title='${title || ''}'>`);
 		creator(el, rte);
 	
 		if(action) el.addEventListener('click', (e) => {
