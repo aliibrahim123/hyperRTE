@@ -1,7 +1,7 @@
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from '../utils/edit/index.js';
 import { addInput, addPanel } from '../creators.js';
 import { checkfn } from '../check.js';
-import { construct, create, query } from '@simplyjs/dom/base.js';
+import { construct, create, query } from '../utils/dom.js';
 
 export default (rte, config) => {
 	var sanitizer = config.sanitizer;

@@ -1,6 +1,6 @@
 import { checkarr, checkstr, checkfn } from './check.js';
-import { construct, create } from '@simplyjs/dom/base.js';
-import $el from '@simplyjs/dom/base.js';
+import { construct, create } from './utils/dom.js';
+import $el from './utils/dom.js';
 
 export var createDropDown = (autoclose = true) => {
 	var dropDown = construct("<span class='hrte-dropDown'>");

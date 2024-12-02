@@ -1,5 +1,5 @@
 import { createDialog } from '../creators.js';
-import { construct, query } from '@simplyjs/dom/base.js';
+import { construct, query } from '../utils/dom.js';
 
 export default (rte, config) => {
 	var [dialog, open, close] = createDialog();

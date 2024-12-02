@@ -1,4 +1,4 @@
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from '../utils/edit/index.js';
 
 export default (rte, config) => {
 	rte.addButton('bold', {

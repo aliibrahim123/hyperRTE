@@ -1,4 +1,4 @@
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from '../utils/edit/index.js';
 import { checkpInt, checkarr } from '../check.js';
 
 export class History {

@@ -1,5 +1,5 @@
-import $edit from '@simplyjs/dom/edit.js';
-import { construct, query } from '@simplyjs/dom/base.js';
+import $edit from '../utils/edit/index.js';
+import { construct, query } from '../utils/dom.js';
 import { checkarr } from '../check.js';
 import { createDropDown, addList, addColor, addNumber } from '../creators.js';
 

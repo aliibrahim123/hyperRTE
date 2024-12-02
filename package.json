@@ -16,9 +16,5 @@
 	"devDependencies": {
 		"esbuild": "",
 		"http-server": ""
-	},
-	"dependencies": {
-		"@simplyjs/com": "^0.0.2",
-		"@simplyjs/dom": "^0.0.2"
 	}
 }

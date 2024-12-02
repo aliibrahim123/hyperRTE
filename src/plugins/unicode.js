@@ -1,6 +1,6 @@
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from '../utils/edit/index.js';
 import { createDropDown } from '../creators.js';
-import { construct, create, query } from '@simplyjs/dom/base.js';
+import { construct, create, query } from '../utils/dom.js';
 
 var blocks = {
 	'Basic Latin': [0x0, 0x7f],

@@ -1,6 +1,6 @@
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from '../utils/edit/index.js';
 import { addList, addNumber } from '../creators.js';
-import { construct } from '@simplyjs/dom/base.js';
+import { construct } from '../utils/dom.js';
 
 export default (rte, config) => {
 	addList(rte, 'align', {

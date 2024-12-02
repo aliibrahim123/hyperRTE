@@ -1,10 +1,9 @@
-import { checkel, checkstr, checkarr, checkfn } from './check.js';
-import { construct, query } from '@simplyjs/dom/base.js';
-import { EventEmmiter } from '@simplyjs/com/structure/events.js';
+import { checkstr, checkarr, checkfn } from './check.js';
+import { construct, query } from './utils/dom.js';
+import { EventEmmiter } from './utils/event.js';
 import { constructMainUI, constructToolbar } from './ui.js';
-import './calcStyles.js';
 import { cleanStyles } from './clean.js';
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from './utils/edit/index.js';
 
 export * from './creators.js';
 

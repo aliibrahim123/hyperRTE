@@ -1,6 +1,6 @@
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from '../utils/edit/index.js';
 import { addInputs, addMenu, addInput } from '../creators.js';
-import { create } from '@simplyjs/dom/base.js';
+import { create } from '../utils/dom.js';
 
 export default (rte, config) => {
 	addInputs(rte, 'table', {

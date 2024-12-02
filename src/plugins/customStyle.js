@@ -1,4 +1,4 @@
-import $edit from '@simplyjs/dom/edit.js';
+import $edit from '../utils/edit/index.js';
 import { addInputs } from '../creators.js';
 
 export default (rte, config) => {

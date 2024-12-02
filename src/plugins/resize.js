@@ -1,4 +1,4 @@
-import { query, construct } from '@simplyjs/dom/base.js';
+import { query, construct } from '../utils/dom.js';
 
 var checked = Symbol('checked');
 

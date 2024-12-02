@@ -1,7 +1,7 @@
 //ui handlers
 
-import { construct } from '@simplyjs/dom/base.js';
-import $el from '@simplyjs/dom/base.js';
+import { construct } from './utils/dom.js';
+import $el from './utils/dom.js';
 
 export var constructMainUI = (rte, el) => {
 	var mainEl = rte.mainEl = $el(el)[0];

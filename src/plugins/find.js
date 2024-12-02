@@ -1,6 +1,6 @@
 import { checkarr } from '../check.js';
 import { createDropDown } from '../creators.js';
-import { create, construct, query } from '@simplyjs/dom/base.js';
+import { create, construct, query } from '../utils/dom.js';
 
 var find = (el, str, blockTags, skipTags, handler) => {
 	if (el.childNodes.length === 0) return;

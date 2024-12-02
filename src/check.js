@@ -2,6 +2,10 @@ export var checkel = (el, name) => {
 	if (!(el instanceof Element)) throw new TypeError(`hyperRTE: ${name} of type (${el?.constructor?.name}), expected (Element)`);
 }
 
+export var checknode = (node, name) => {
+	if (!(node instanceof Node)) throw new TypeError(`hyperRTE: ${name} of type (${node?.constructor?.name}), expected (Node)`);
+}
+
 export var checkstr = (str, name) => {
 	if (typeof str !== 'string') throw new TypeError(`hyperRTE: ${name} of type (${str?.constructor?.name}), expected (String)`);
 }
