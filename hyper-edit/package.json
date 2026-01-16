@@ -1,0 +1,17 @@
+{
+	"name": "hyper-edit",
+	"version": "0.0.1",
+	"description": "advance rich text editor for the web",
+	"type": "module",
+	"main": "./src/index.ts",
+	"author": "aliibrahim123",
+	"homepage": "https://aliibrahim123.github.io/hyperRTE/",
+	"bugs": {
+		"url": "https://github.com/aliibrahim123/hyperRTE/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aliibrahim123/hyperRTE.git"
+	},
+	"license": "MIT"
+}

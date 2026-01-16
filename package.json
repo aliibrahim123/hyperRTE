@@ -1,0 +1,25 @@
+{
+	"name": "hyper-rte",
+	"version": "0.2.0",
+	"description": "advance rich text editor for the web",
+	"type": "module",
+	"author": "aliibrahim123",
+	"scripts": {
+		"start": "vite ."
+	},
+	"homepage": "https://aliibrahim123.github.io/hyperRTE/",
+	"bugs": {
+		"url": "https://github.com/aliibrahim123/hyperRTE/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aliibrahim123/hyperRTE.git"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"vite": "^7.3.1"
+	},
+	"dependencies": {
+		"@neocomp/full": "^0.5.12"
+	}
+}
